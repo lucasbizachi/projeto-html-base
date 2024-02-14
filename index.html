@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Html Base</title>
+    <style>
+        body {
+            width: 1200px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="inicio">O que é HTML?</h1>
+    <hr>
+
+    <h2><i>Índice</i></h2>
+    <ul>
+        <li><a href="#estrutura">Estrutura Básica</a></li>
+        <li><a href="#tag">Tags</a></li>
+        <li><a href="#atributos">Atributos</a></li>
+        <li><a href="#lista">Listas</a></li>
+        <li><a href="#referencia">Referências</a></li>
+    </ul>
+
+    <h2 id="estrutura">Estrutura básica.</h2>
+        <small><a style="font-size: 16px;" href="#inicio"> <img width="15px" src="assets/img/right.png" alt=""><mark>Voltar</mark></a></small>
+
+        <p>
+            HTML significa HyperText Markup Language (Linguagem de Marcação de Hipertexto, em português). É uma linguagem de marcação utilizada na construção e estruturação de páginas web. Desenvolvido para descrever a estrutura básica de uma página web, o HTML consiste em uma série de elementos ou tags que são utilizados para definir diferentes partes do conteúdo, como cabeçalhos, parágrafos, listas, links, imagens, formulários, entre outros.
+        </p>
+
+        <p>
+            As páginas web são compostas por texto, imagens, links e outros elementos, e o HTML fornece a estrutura necessária para organizar e apresentar esses elementos de forma coerente. Além do HTML, o desenvolvimento web geralmente envolve o uso de outras tecnologias, como o CSS (Cascading Style Sheets) para a estilização e o layout, e o JavaScript para a interatividade e dinamismo na página.
+        </p>
+
+        <p>
+            Em resumo, o HTML é uma linguagem fundamental para a criação de páginas web, pois fornece a base estrutural necessária para a apresentação de conteúdo na internet.
+        </p>
+
+
+    <h2 id="tag">Tags</h2>
+
+        <p>
+            As tags em HTML são elementos fundamentais dessa linguagem de marcação. Elas são usadas para marcar partes específicas do conteúdo de uma página web, indicando ao navegador como essas partes devem ser exibidas ou como devem interagir entre si. Cada tag HTML é representada por uma palavra-chave cercada por colchetes angulares < >. Geralmente, as tags HTML são usadas em pares, com uma tag de abertura e uma tag de fechamento, que são idênticas, exceto pela barra inclinada (/) antes do nome da tag de fechamento.
+        </p>
+
+        <p>
+            Algumas tags, como a <i>&lt;img&gt;</i> para imagens ou a <i>&lt;br&gt;</i>  para quebras de linha, não precisam de uma tag de fechamento e são chamadas de tags vazias.
+        </p>
+
+            <strong><p>Exemplo:</p></strong>
+            <p style="color: rgb(38, 0, 255); font-size: 16px;">&lt;p&gt;Este é um parágrafo.&lt;/p&gt; <br>
+            &lt;img src="" alt=""&gt; </p>
+
+    <h2 id="atributos">Atributos</h2>
+    <small><a style="font-size: 16px;" href="#inicio"> <img width="15px" src="assets/img/right.png" alt=""><mark>Voltar</mark></a></small>
+
+        <p>
+            Em HTML, os atributos são utilizados para fornecer informações adicionais sobre elementos HTML. Eles geralmente são incluídos nas tags de abertura dos elementos e fornecem configurações ou características específicas para esses elementos. Aqui estão alguns exemplos de atributos HTML comuns:
+        </p>
+
+        
+
+        <p>
+            Estes são apenas alguns exemplos, e existem muitos outros atributos HTML que são específicos para diferentes elementos. A utilização adequada de atributos é essencial para estruturar e estilizar corretamente o conteúdo em uma página web.
+        </p>
+
+        <h3><strong>Atributo src (source):</strong></h3>
+
+        <p>
+            Utilizado em elementos como <i> &lt;img&gt;, &lt;audio&gt;</i>, e <i>&lt;video&gt;</i>.
+        Define o caminho ou URL da origem do conteúdo. <br>
+            <strong>Exemplo:</strong>
+            &lt;img <span style="color: rgb(38, 0, 255); font-size: 16px;">src="imagem.jpg"</span> alt="Descrição da imagem"&gt;
+        </p>
+
+        <h3><strong>Atributo alt (alternative text):</strong></h3>
+
+        <p>Utilizado em elementos como  <i> &lt;img&gt;</i> para fornecer um texto alternativo quando a imagem não pode ser exibida. <br>
+        Exemplo: &lt;img src="imagem.jpg" <span style="color: rgb(38, 0, 255); font-size: 16px;"> alt="Descrição da imagem"</span>&gt;</p>
+
+
+        <h3><strong>Atributo href (hypertext reference):</strong></h3>
+
+        <p>Usado em links <a> para especificar o destino do link. <br>
+            <strong>Exemplo:</strong>
+            &lt;a <span style="color: rgb(38, 0, 255); font-size: 16px;">href="https://www.exemplo.com"</span>&gt;Visite nosso site &lt/a &gt;
+        </p>
+
+        <h3><strong>Atributo class:</h3></strong>
+
+        <p>
+            Permite associar um ou mais elementos a uma classe, que pode ser estilizada através de CSS. <br>
+            Exemplo: &lt;div <span style="color: rgb(38, 0, 255); font-size: 16px;"> class="destaque"&gt;</span>Este é um bloco com destaque.&lt;/div&gt;
+        </p>
+
+        <h3><strong>Atributo id:</strong></h3>
+
+        <p>
+        Atribui uma identificação única a um elemento, o que pode ser útil para referenciá-lo com estilos CSS ou scripts. <br>
+        Exemplo:&lt;div <span style="color: rgb(38, 0, 255); font-size: 16px;"> id="conteudo-principal"</span>&gt;Conteúdo principal da página.&lt;/div&gt;
+        </p>
+
+    <h2 id="lista">Listas</h2>
+        <small><a style="font-size: 16px;" href="#inicio"> <img width="15px" src="assets/img/right.png" alt=""><mark>Voltar</mark></a></small>
+        <p>
+            Em HTML, as listas são usadas para organizar e estruturar informações de maneira hierárquica. Existem três tipos principais de listas em HTML: listas ordenadas, listas não ordenadas e listas de definição.
+        </p>
+
+        <h3><strong>Listas Ordenadas (&lt;ol&gt; - Ordered List):</strong></h3>
+
+        <p>Utilizadas para criar listas com itens numerados ou ordenados. <br>
+            <strong>Exemplo:</strong>
+        </p>
+        <img src="/assets/img/lista-ol.png" alt="Imagem Lista Ordenada">
+
+        <h4>Resultado:</h4>
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ol>
+    
+        
+
+        <h3><strong>Listas Não Ordenadas (&lt;ul&gt; - Unordered List):</strong></h3>
+
+        <p>Utilizadas para criar listas com itens sem uma ordem específica, geralmente marcados com pontos, traços ou outros símbolos. <br>
+        <strong>Exemplo:</strong>
+        </p>
+        <img src="/assets/img/lista-ul.png" alt="Imagem Lista Não Ordenada">
+
+        <h4>Resultado:</h4>
+            <ul>
+                <li>Item A</li>
+                <li>Item B</li>
+                <li>Item C</li>
+            </ul>
+    
+
+        <h3><strong>Listas de Definição (&lt;dl&gt; - Definition List):</strong></h3>
+
+        <p>Utilizadas para criar listas de termos e suas definições associadas. Cada definição é representada por um par de tags &lt;dt&gt; (termo) e &lt;dd&gt;(definição). <br>
+        <strong>Exemplo:</strong>
+        </p>
+
+        <img src="assets/img/lista-dl.png" alt="Imagem Lista de Definição">
+
+        <h4>Resultado:</h4>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Linguagem de Marcação de Hipertexto</dd>
+                <dt>CSS</dt>
+                <dd>Folhas de Estilo em Cascata</dd>
+            </dl>
+    
+
+        <p>
+            Essas listas fornecem maneiras eficazes de estruturar e apresentar informações em uma página HTML. Ao utilizar a tag apropriada para o tipo de lista desejado, é possível criar uma estrutura clara e semântica, facilitando a compreensão do conteúdo.
+        </p>
+
+    <h2 id="referencia">Referências</h2>
+        
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web Docs</a> <br>
+        <a href="https://www.hostinger.com.br/tutoriais/o-que-e-html-conceitos-basicos" target="_blank">Hostinger</a> <br>
+        <a href="https://tableless.github.io/iniciantes/manual/html/estruturabasica.html" target="_blank">GitHub Pages</a>
+
+
+    <hr>
+
+    <footer>
+        <p>by Lucas Bizachi <br>   Curso: Formação HTML Web Developer - platafroma 
+            <a href="https://web.dio.me/" target="_blank">
+            <img width="50px"src="assets/img/LOGO-DIO-COLOR.com.jpg" alt="">
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>
